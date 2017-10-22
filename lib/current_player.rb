@@ -24,6 +24,6 @@ def current_player(board)
   end
 
 #ternary operator method
-  
+
 
 end
