@@ -11,19 +11,19 @@ end
 def current_player(board)
 #modular method
   # if turn_count(board) % 2 == 0
-  #   return "X"
+  #   "X"
   # else
-  #   return "O"
+  #   "O"
   # end
 
 #even/odd method
-  if turn_count(board).even?
-    "X"
-  else
-    "O"
-  end
+  # if turn_count(board).even?
+  #   "X"
+  # else
+  #   "O"
+  # end
 
 #ternary operator method
-
+ turn_count(board).even? "X" : "O"
 
 end
