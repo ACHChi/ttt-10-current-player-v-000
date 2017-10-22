@@ -18,10 +18,12 @@ def current_player(board)
 
 #even/odd method
   if turn_count(board).even?
-    return "X"
+    "X"
   else
-    return "O"
+    "O"
   end
 
+#ternary operator method
+  
 
 end
