@@ -19,7 +19,9 @@ def current_player(board)
 #even/odd method
   if turn_count(board).even?
     return "X"
-  else 
+  else
     return "O"
+  end
+  
 
 end
